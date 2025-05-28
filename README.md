@@ -13,8 +13,8 @@ All tasks were performed using a local MySQL setup to simulate real-world data m
 
 ## 📁 Project Structure
 
-- `SQL Project.docx` – Contains all the SQL commands used in this practice.
-- `README.md` – Describes the purpose and summary of SQL operations covered.
+- `SQL Project.docx` – Contains all the SQL commands used in this practice  
+- `README.md` – Describes the purpose and summary of SQL operations covered
 
 ---
 
@@ -23,38 +23,38 @@ All tasks were performed using a local MySQL setup to simulate real-world data m
 ### 📂 Database and Table Management
 - Creating and renaming databases and tables  
 - Adding, modifying, and dropping columns  
-- Inserting and deleting data records
+- Inserting and deleting data records  
 
 ### 🔍 Data Retrieval
 - Basic `SELECT` statements  
 - Filtering with `WHERE`, `BETWEEN`, `IN`, and `LIKE`  
 - Sorting results with `ORDER BY`  
-- Limiting results with `LIMIT`
+- Limiting results with `LIMIT`  
 
 ### ✏️ Updating Data
-- Updating single or multiple columns with `UPDATE`  
-- Applying conditional updates using `WHERE`
+- Updating single or multiple columns using `UPDATE`  
+- Applying conditional updates with `WHERE`  
 
 ### 🔑 Constraints and Integrity
-- Adding `PRIMARY KEY`, `FOREIGN KEY`, `UNIQUE`, `CHECK`, and `NOT NULL` constraints  
-- Using `AUTO_INCREMENT` for unique identifiers
+- Applying `PRIMARY KEY`, `FOREIGN KEY`, `UNIQUE`, `CHECK`, and `NOT NULL` constraints  
+- Using `AUTO_INCREMENT` for unique identifiers  
 
 ### 🔗 Joins
-- Combining data with `INNER JOIN`, `LEFT JOIN`, and `RIGHT JOIN`
+- Combining data using `INNER JOIN`, `LEFT JOIN`, and `RIGHT JOIN`  
 
 ### 🧠 SQL Functions
 - Aggregate functions: `COUNT()`, `MAX()`, `MIN()`, `AVG()`, `SUM()`  
-- String concatenation using `CONCAT()`
+- Concatenating strings with `CONCAT()`  
 
 ### 🤖 Logical Operators
-- Combining conditions with `AND`, `OR`, `NOT`
+- Using `AND`, `OR`, and `NOT` for conditional logic  
 
 ### 🔁 Advanced Filtering
-- Using wildcards (`%`, `_`) with `LIKE`  
-- Combining logical operators for complex conditions
+- Using wildcards (`%`, `_`) with the `LIKE` operator  
+- Combining logical operators for complex filters  
 
 ### 🧾 UNION Operation
-- Merging query results from multiple tables using `UNION`
+- Merging results from multiple tables using `UNION`  
 
 ---
 
@@ -64,35 +64,28 @@ All tasks were performed using a local MySQL setup to simulate real-world data m
   Stores employee information including name, hourly pay, hire date, and job role.
 
 - **products**  
-  Demonstrates usage of `UNIQUE`, `NOT NULL`, and `DEFAULT` constraints.
+  Demonstrates constraints such as `UNIQUE`, `NOT NULL`, and `DEFAULT`.
 
 - **customers** and **transactions**  
-  Used to practice relational database design and `FOREIGN KEY` constraints.
+  Used to explore relational database concepts and practice using `FOREIGN KEY` constraints.
 
 ---
 
-## 🧪 Example Query
+## 🧠 What I Learned
 
-```sql
-SELECT first_name, last_name
-FROM employees
-WHERE hire_date BETWEEN "2023-01-04" AND "2023-01-07"
-ORDER BY last_name DESC;
-🧠 What I Learned
-How to create and manipulate SQL databases and tables from scratch
+- How to create and manipulate SQL databases and tables from scratch  
+- Practical understanding of constraints and keys  
+- The importance of relationships in relational databases  
+- How to retrieve and manage data using various queries and filters  
 
-Practical understanding of constraints and keys
+---
 
-The importance of relationships in relational databases
+## 🚀 How to Use This Project
 
-How to retrieve and manage data using various queries and filters
+1. Clone this repository to your local machine  
+2. Open the `SQL Project.docx` file to view all documented queries  
+3. Optionally convert them to `.sql` format and run them in your MySQL environment  
 
-🚀 How to Use This Project
-Clone this repository to your local machine.
+---
 
-Open SQL Project.docx to view documented queries.
-
-Optionally, convert them into .sql and run in your local MySQL environment.
-
-📌 This project is part of my data portfolio.
-It demonstrates foundational SQL knowledge applicable to real-world data analysis and database management.
+> 💼 This project is part of my data portfolio and demonstrates practical SQL knowledge for real-world applications.
