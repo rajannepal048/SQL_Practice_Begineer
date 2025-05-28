@@ -92,6 +92,7 @@ Clone this repository to your local machine.
 
 Open SQL Project.docx to view documented queries.
 
-Optionally, convert them into .sql format and run them in your local MySQL environment.
+Optionally, convert them into .sql and run in your local MySQL environment.
 
-
+📌 This project is part of my data portfolio.
+It demonstrates foundational SQL knowledge applicable to real-world data analysis and database management.
