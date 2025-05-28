@@ -1,53 +1,80 @@
-🗃️ SQL Practice Projects for Beginners
+# 🗃️ SQL Practice Projects for Beginners
 
 This project documents my hands-on SQL practice using beginner-friendly tutorials online. I recreated, experimented with, and modified multiple SQL queries to build a solid foundation in relational databases, table operations, constraints, joins, functions, and logical operators.
 
-📌 Overview
+---
 
-This practice project covers essential SQL concepts using MySQL syntax. All tasks were performed using a local MySQL setup to simulate real-world data manipulation scenarios.
+## 📌 Overview
 
-📁 Project Structure
+This practice project covers essential SQL concepts using MySQL syntax.  
+All tasks were performed using a local MySQL setup to simulate real-world data manipulation scenarios.
 
-SQL Project.docx: Contains all the SQL commands used in this practice.
-README.md: Describes the purpose and summary of SQL operations covered.
+---
 
-🔧 Skills Demonstrated
+## 📁 Project Structure
 
-📂 Database and Table Management
-. Creating and renaming databases and tables
-. Adding, modifying, and dropping columns
-. Inserting and deleting data records
+- `SQL Project.docx` – Contains all the SQL commands used in this practice.
+- `README.md` – Describes the purpose and summary of SQL operations covered.
 
-🔍 Data Retrieval
-. Basic SELECT, filtering with WHERE, BETWEEN, IN, and LIKE
-. Ordering results with ORDER BY and limiting rows using LIMIT
+---
 
-✏️ Updating Data
-. Using UPDATE for single and multiple column changes
-. Applying conditional updates
+## 🔧 Skills Demonstrated
 
-🔑 Constraints and Integrity
-. Applying PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, and NOT NULL constraints
-. Using AUTO_INCREMENT for primary keys
+### 📂 Database and Table Management
+- Creating and renaming databases and tables  
+- Adding, modifying, and dropping columns  
+- Inserting and deleting data records
 
-🔗 Joins
-. INNER JOIN, LEFT JOIN, RIGHT JOIN to combine data across tables
+### 🔍 Data Retrieval
+- Basic `SELECT` statements  
+- Filtering with `WHERE`, `BETWEEN`, `IN`, and `LIKE`  
+- Sorting results with `ORDER BY`  
+- Limiting results with `LIMIT`
 
-🧠 SQL Functions
-. Aggregate functions: COUNT, MAX, MIN, AVG, SUM
-. String concatenation using CONCAT
+### ✏️ Updating Data
+- Updating single or multiple columns with `UPDATE`  
+- Applying conditional updates using `WHERE`
 
-🤖 Logical Operators
-. AND, OR, NOT for complex conditions
+### 🔑 Constraints and Integrity
+- Adding `PRIMARY KEY`, `FOREIGN KEY`, `UNIQUE`, `CHECK`, and `NOT NULL` constraints  
+- Using `AUTO_INCREMENT` for unique identifiers
 
-🔁 Advanced Filtering
-. Wildcards (%, _)
-. Combining multiple operators for nuanced queries
+### 🔗 Joins
+- Combining data with `INNER JOIN`, `LEFT JOIN`, and `RIGHT JOIN`
 
-🧾 UNION Operation
-. Merging query results from multiple tables
+### 🧠 SQL Functions
+- Aggregate functions: `COUNT()`, `MAX()`, `MIN()`, `AVG()`, `SUM()`  
+- String concatenation using `CONCAT()`
 
-✅ Sample Tables Used
-. employees => Stores basic employee info like name, hourly pay, hire date, and job role.
-. products => Demonstrates constraints like UNIQUE, NOT NULL, and DEFAULT.
-. customers and transactions => Used for practicing relational database design and foreign key constraints.
+### 🤖 Logical Operators
+- Combining conditions with `AND`, `OR`, `NOT`
+
+### 🔁 Advanced Filtering
+- Using wildcards (`%`, `_`) with `LIKE`  
+- Combining logical operators for complex conditions
+
+### 🧾 UNION Operation
+- Merging query results from multiple tables using `UNION`
+
+---
+
+## ✅ Sample Tables Used
+
+- **employees**  
+  Stores employee information including name, hourly pay, hire date, and job role.
+
+- **products**  
+  Demonstrates usage of `UNIQUE`, `NOT NULL`, and `DEFAULT` constraints.
+
+- **customers** and **transactions**  
+  Used to practice relational database design and `FOREIGN KEY` constraints.
+
+---
+
+## 🧪 Example Query
+
+```sql
+SELECT first_name, last_name
+FROM employees
+WHERE hire_date BETWEEN "2023-01-04" AND "2023-01-07"
+ORDER BY last_name DESC;
