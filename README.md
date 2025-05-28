@@ -78,24 +78,20 @@ SELECT first_name, last_name
 FROM employees
 WHERE hire_date BETWEEN "2023-01-04" AND "2023-01-07"
 ORDER BY last_name DESC;
-
----
 🧠 What I Learned
-- How to create and manipulate SQL databases and tables from scratch
+How to create and manipulate SQL databases and tables from scratch
 
-- Practical understanding of constraints and keys
+Practical understanding of constraints and keys
 
-- The importance of relationships in relational databases
+The importance of relationships in relational databases
 
-- How to retrieve and manage data using various queries and filters
-
----
+How to retrieve and manage data using various queries and filters
 
 🚀 How to Use This Project
-- Clone this repository to your local machine.
+Clone this repository to your local machine.
 
-- Open SQL Project.docx to view documented queries.
+Open SQL Project.docx to view documented queries.
 
-- Optionally, convert them into .sql and run in your local MySQL environment.
+Optionally, convert them into .sql format and run them in your local MySQL environment.
 
 
